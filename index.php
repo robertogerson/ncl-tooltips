@@ -40,12 +40,12 @@
         {
           echo "<tr style='background-color: lightblue;'><td>".$array[$i+1]."</td><td>".$array[$i+2];
 
-					if (strcmp (trim($array[$i+3]), "") != 0 )
-					{
-					  echo "<br/> <b>";
-						echo "Dica: ".$array[$i+3]."</b>";
-					}
-					echo "</td></tr>";
+          if (strcmp (trim($array[$i+3]), "") != 0 )
+          {
+            echo "<br/> <b>";
+            echo "Dica: ".$array[$i+3]."</b>";
+          }
+          echo "</td></tr>";
         } 
       }
     ?>
